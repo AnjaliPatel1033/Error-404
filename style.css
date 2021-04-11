@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#f8f9fa;
+}
+#errorpage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#errorpage .picture img{
+    height: 130x;
+    width: 130px;
+}
+#errorpage > div{
+    margin: 0.5rem 0;
+}
+.errornumber > span{
+    font-size:4rem;
+}
+.error{
+    font-size: 1.5rem;
+    color: #757575;
+}
+.description p{
+    margin: 0.2rem 0;
+    text-align: center;
+    color: #757575;
+} 
+button{
+    background-color:#007bff;
+    padding: 0.8rem 1.5rem;
+    border: 0;
+    border-radius:5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
